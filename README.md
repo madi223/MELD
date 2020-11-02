@@ -3,6 +3,6 @@ MELD (MEC-based Edge Loss Discrimination) is a novel server-side loss discrimina
 
 # Step 1 : Building OAI and FlexRAN infrastructure on r2lab
 ## Launching nodes images
-'''
+```
 $rload
-'''
+```
