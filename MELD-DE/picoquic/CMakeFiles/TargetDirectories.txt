@@ -1,0 +1,11 @@
+/home/oaici/rnis_dev/picoquic/CMakeFiles/edit_cache.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/rebuild_cache.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picoquic-log.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picoquic-core.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/clangformat.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picoquic_sample.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picohttp_ct.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picoquic_ct.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picoquicdemo.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picohttp-core.dir
+/home/oaici/rnis_dev/picoquic/CMakeFiles/picolog_t.dir

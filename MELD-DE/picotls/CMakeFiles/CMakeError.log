@@ -1,0 +1,454 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccCHBLLx.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/cc5yTOyI.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>: error: missing '(' after predicate
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccqWlawK.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccIYlHTO.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccOIvDuU.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccKXxFsW.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>: error: missing '(' after predicate
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/cc3biYJT.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccdm2ueV.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/ccn5Ty72.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/cch3YEuc.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/cctXHnlm.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/ccle7Sqq.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_711f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_711f7.dir/build.make CMakeFiles/cmTC_711f7.dir/build
+make[1]: Entering directory '/home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_711f7.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_711f7.dir/testCCompiler.c.o   -c /home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp/testCCompiler.c:11:1: fatal error: error closing /tmp/ccHwF5dG.s: No space left on device
+ { (void)argv; return argc-1;}
+ ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_711f7.dir/build.make:66: CMakeFiles/cmTC_711f7.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory '/home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_711f7/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/cc2gD4Cy.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/cc44AMLz.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>: error: missing '(' after predicate
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccQY7CjE.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/cce6IMnK.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccSXJqhL.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccOhkg0R.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>: error: missing '(' after predicate
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccmpXp4S.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:622:1: fatal error: error closing /tmp/ccY1TV8Y.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/ccqaaEX3.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/cciMVWb8.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/ccWrlMii.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:602:1: fatal error: error closing /tmp/ccExVTbk.s: No space left on device
+ }
+ ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfe61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfe61.dir/build.make CMakeFiles/cmTC_dfe61.dir/build
+make[1]: Entering directory '/home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfe61.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dfe61.dir/testCCompiler.c.o   -c /home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp/testCCompiler.c:11:1: fatal error: error closing /tmp/cc3kLSoo.s: No space left on device
+ { (void)argv; return argc-1;}
+ ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_dfe61.dir/build.make:66: CMakeFiles/cmTC_dfe61.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory '/home/madi/workspace/rnis_dev/picotls/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dfe61/fast] Error 2
+
+

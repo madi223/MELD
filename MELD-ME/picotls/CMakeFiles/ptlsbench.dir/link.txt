@@ -1,0 +1,1 @@
+/usr/bin/cc -D_GNU_SOURCE -pthread -std=c99 -Wall -O2 -g    -rdynamic CMakeFiles/ptlsbench.dir/t/ptlsbench.c.o  -o ptlsbench libpicotls-minicrypto.a libpicotls-openssl.a libpicotls-core.a -lssl -lcrypto -ldl 
