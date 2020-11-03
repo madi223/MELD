@@ -71,3 +71,20 @@ enable-usrp-ethernet
 uhd_siggen --gaussian -f 2425M -g -10
 ```
 # Step 2: Testing MELD-DE
+## Launch the publish process
+Open a new terminal on the server (fit14) and copy the RNTI of the UE from FlexRAN controller:
+```
+ssh oaici@fit14
+cd rnis_dev/
+python3 rnis_pub.y -r <RNTI>
+```
+## Launch picoquic server with Cubic or NewReno
+In another terminal, connect to the server and launch the following commands:
+```NewReno
+cd MELD/MELD-DE/picoquic/
+./picoquicdemo -p 4443 -w . -G reno 
+```
+```Cubic
+cd MELD/MELD-DE/picoquic/
+./picoquicdemo -p 4443 -w . -G cubic
+```
