@@ -76,7 +76,7 @@ Open a new terminal on the server (fit14) and copy the RNTI of the UE from FlexR
 ```
 ssh oaici@fit14
 cd rnis_dev/
-python3 rnis_pub.y -r <RNTI>
+python3 rnis_pub.py -r <RNTI>
 ```
 ## Launch picoquic server with Cubic or NewReno
 In another terminal, connect to the server and launch the following commands:
@@ -87,4 +87,15 @@ cd MELD/MELD-DE/picoquic/
 ```Cubic
 cd MELD/MELD-DE/picoquic/
 ./picoquicdemo -p 4443 -w . -G cubic
+```
+## Download 20MB file from the UE
+Connect to the UE and add the following route:
+```
+sudo ip route add 192.168.3.14/32 dev oaitun_ue1
+```
+Stop and relaunch the publish process (make sure it is still running while downloading).
+From the UE start the download:
+```
+cd rnis_dev/picoquic/
+./picoquicdemo -D 192.168.3.14 4443 8:/20MB
 ```
