@@ -91,11 +91,12 @@ cd MELD/MELD-DE/picoquic/
 ## Download 20MB file from the UE
 Connect to the UE and add the following route:
 ```
+ssh oaici@fit06
 sudo ip route add 192.168.3.14/32 dev oaitun_ue1
 ```
-Stop and relaunch the publish process (make sure it is still running while downloading).
+Stop and relaunch the publish process (make sure it is still running while downloading).\n
 From the UE start the download:
 ```
-cd rnis_dev/picoquic/
-./picoquicdemo -D 192.168.3.14 4443 8:/20MB
+oaici@fit06~: cd rnis_dev/picoquic/
+oaici@fit06~: ./picoquicdemo -D 192.168.3.14 4443 8:/20MB
 ```
