@@ -94,7 +94,9 @@ Connect to the UE and add the following route:
 ssh oaici@fit06
 sudo ip route add 192.168.3.14/32 dev oaitun_ue1
 ```
-Stop and relaunch the publish process (make sure it is still running while downloading).\n
+Stop and relaunch the publish process (make sure it is still running while downloading).
+```
+```
 From the UE start the download:
 ```
 oaici@fit06~: cd rnis_dev/picoquic/
