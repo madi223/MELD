@@ -70,7 +70,8 @@ ssh root@fit13
 enable-usrp-ethernet
 uhd_siggen --gaussian -f 2425M -g -10
 ```
-# Step 2: Testing MELD-DE
+# Step 2 : Testing MELD
+You can test Legacy picoquic, MELD-DE and MELD-ME by launching picoquicdemo in the correspondign directory, for instance, in order to test MELD-DE, you need to follow the steps below:
 ## Launch the publish process
 Open a new terminal on the server (fit14) and copy the RNTI of the UE from FlexRAN controller:
 ```
@@ -82,11 +83,14 @@ python3 rnis_pub.py -r <RNTI>
 In another terminal, connect to the server and launch the following commands:
 ```NewReno
 cd MELD/MELD-DE/picoquic/
-./picoquicdemo -p 4443 -w . -G reno 
+mkdir reno-log
+./picoquicdemo -p 4443 -w . -G reno -L -b reno-log
 ```
+or
 ```Cubic
 cd MELD/MELD-DE/picoquic/
-./picoquicdemo -p 4443 -w . -G cubic
+mkdir cubic-log
+./picoquicdemo -p 4443 -w . -G cubic -L -b cubic-log
 ```
 ## Download 20MB file from the UE
 Connect to the UE and add the following route:
@@ -102,3 +106,16 @@ From the UE start the download:
 oaici@fit06~: cd rnis_dev/picoquic/
 oaici@fit06~: ./picoquicdemo -D 192.168.3.14 4443 8:/20MB
 ```
+# Step 4 : Analysing and Interpreting log results in csv
+After running the desired number of tests, stop picoquicdemo at the server and launch the following script
+```
+./rttlog.sh reno-log
+```
+or
+```
+./rttlog.sh cubic-log
+```
+rttlog.sh generate a csv file (rtt-<time>.csv) the mean RTT and confidence interval at each second
+```
+```
+You can plot the content of this csv file with your favorite vizualization tool (python seaborn, gnuplot, tikz etc.) For instance, with seaborn got the following graphs for MELD-DE, MELD-ME and Legacy picoquic
