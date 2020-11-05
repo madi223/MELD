@@ -117,6 +117,7 @@ or
 ```
 rttlog.sh generate a csv file (rtt-<timestamp>.csv) the mean RTT and confidence interval at each second
 ```
+cat rtt-1604574754.627305.csv
 time,mean,error  
 1,247.8873545821989,282.06587808664585
 2,238.97878824767338,244.03404046253155
