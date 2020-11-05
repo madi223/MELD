@@ -115,7 +115,18 @@ or
 ```
 ./rttlog.sh cubic-log
 ```
-rttlog.sh generate a csv file (rtt-<time>.csv) the mean RTT and confidence interval at each second
+rttlog.sh generate a csv file (rtt-<timestamp>.csv) the mean RTT and confidence interval at each second
 ```
+time,mean,error  
+1,247.8873545821989,282.06587808664585
+2,238.97878824767338,244.03404046253155
+3,252.68859432726705,325.54888976613205
+4,257.12052580774645,241.32091918536278
+5,256.76023007035195,236.52503657900186
+6,259.97328753428053,320.8926477570124
+7,263.1348330754019,216.4134579022659
+8,259.5439771741548,261.270701678302
+9,265.88118376922165,267.0920855984539
+10,265.8011558973408,247.45082362359005
 ```
 You can plot the content of this csv file with your favorite vizualization tool (python seaborn, gnuplot, tikz etc.) For instance, with seaborn got the following graphs for MELD-DE, MELD-ME and Legacy picoquic
