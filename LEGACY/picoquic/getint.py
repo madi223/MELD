@@ -49,7 +49,7 @@ while i < 100:
         if int(row[0]) == i:
             item.append(float(row[1]))
             
-    if len(item) > 0:
+    if len(item) >= 2:
         m,ci = int_ech(item)
         f.write("{},{},{}\n".format(i,m,ci))
         #fr.write("({},{})  +- ({},{})\n".format(i,mean,high,low))
