@@ -54,16 +54,11 @@ def main(epc,enb,server,ue,awgn, *, verbose=True):
         required = job_warmup,
     )
 
-    job_noise = SshJob(
-        node = awgn,
-        command = RunScript("noise_config.sh"),
-        required = job_server,
-    )
 
     job_enb = SshJob(
         node = enb,
         command	= Run("sudo ifconfig data 192.168.2.23/24 up"),
-        required = job_noise,
+        required = job_server,
     )
 
 
@@ -76,7 +71,6 @@ def main(epc,enb,server,ue,awgn, *, verbose=True):
     scheduler = Scheduler(
         job_warmup,
         job_server,
-        job_noise,
         job_enb,
         job_epc,
         verbose=verbose
