@@ -24,7 +24,12 @@ source oaienv
 cd cmake_targets
 sudo -E ./lte_build_oai/build/lte-softmodem -O ~/openairinterface5g/ci-scripts/conf_files/ci-enb.band7.tm1.25PRB.usrpb210.conf --eNBs.[0].rrc_inactivity_threshold 0 --RUs.[0].max_rxgain 120 --eNBs.[0].component_carriers.[0].pusch_p0_Nominal -90 --eNBs.[0].component_carriers.[0].pucch_p0_Nominal -96 --eNBs.[0].tracking_area_code 600 --eNBs.[0].plmn_list.[0].mnc 95 --THREAD_STRUCT.[0].parallel_config PARALLEL_RU_L1_TRX_SPLIT
 ```
-## 1.3 Start the UE (fit06)
+## 1.3 Start the noise generator
+```
+enable-usrp-ethernet
+uhd_siggen --gaussian -f 2425M -g -10
+```
+## 1.4 Start the UE (fit06)
 ```
 ssh oaici@fit06
 cd ~/openairinterface5g
