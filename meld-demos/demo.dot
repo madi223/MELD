@@ -1,0 +1,12 @@
+digraph asynciojobs{
+compound=true;
+graph [];
+1 [style="rounded",label="1: root@fit17
+RunScript: epc_config.sh ",shape="box",color="red",penwidth="2"]
+2 [style="rounded",label="2: root@fit14
+RunScript: server_config.sh ",shape="box",color="red",penwidth="2"]
+1 -> 2;
+3 [style="rounded",label="3: root@fit13
+RunScript: noise_config.sh ",shape="box",color="red",penwidth="2"]
+2 -> 3;
+}
